@@ -18,11 +18,11 @@ public class BankAccount {
 		accNum=b;
 		balance=c;
 	}
-	public void deposit()
+	public void deposit(int a)
 	{
 		balance= balance+ a;
 	}
-	public void withdraw()
+	public void withdraw(int a)
 	{
 		balance= balance- a;
 	}
@@ -32,5 +32,6 @@ public class BankAccount {
 	}
 	public String toString()
 	{
-		return "Name: " +name + "Acount Number:  "+ accNum + "Balance: " + balance	}
+		return "Name: " +name + "Acount Number:  "+ accNum + "Balance: " + balance	;
+	}
 }
